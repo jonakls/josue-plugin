@@ -17,7 +17,6 @@ public class JosuePlugin extends JavaPlugin {
 
     private final ComponentLogger logger = this.getComponentLogger();
 
-
     @Override
     public void onEnable() {
         this.getConfig().options().copyDefaults();
